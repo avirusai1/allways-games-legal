@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Sirat</title>
+<style>
+  :root {
+    color-scheme: light;
+    --primary: #1B6B38;
+    --accent: #B98A1E;
+    --bg: #FAFAF7;
+    --surface: #FFFFFF;
+    --surface-alt: #F1F5F2;
+    --text: #15171A;
+    --text-soft: #5C636E;
+    --border: #E2E5EA;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 800;
+    margin: 0 0 4px;
+    letter-spacing: -0.3px;
+  }
+  .updated {
+    color: var(--text-soft);
+    font-size: 0.9rem;
+    margin-bottom: 28px;
+  }
+  .intro {
+    font-size: 1.05rem;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 36px 0 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  h2:first-of-type { border-top: none; padding-top: 0; }
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 20px 0 8px;
+    color: var(--primary);
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0 20px;
+    font-size: 0.92rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: var(--surface-alt);
+    font-weight: 700;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 18px 0;
+  }
+  .card.emph { border-color: var(--primary); background: #F0F7F2; }
+  a { color: var(--primary); }
+  .footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-soft);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Privacy Policy — Sirat</h1>
+  <div class="updated">Last updated: 9 September 2026</div>
+
+  <p class="intro">
+    Sirat is an Islamic companion app for prayer times, Qur'an reading, adhkar,
+    recitation, and learning. This policy explains, plainly, what the app does
+    and does not do with your data. If a claim here does not match the app's
+    actual behaviour, the app's behaviour is wrong and should be reported —
+    see the contact section below.
+  </p>
+
+  <div class="card emph">
+    <strong>The short version:</strong> Sirat is built offline-first. Your
+    prayer logs, Qur'an reading progress, bookmarks, habit tracking, and
+    reflection journal are stored only on your device. We do not run any
+    analytics or advertising SDK, we do not have user accounts, and we do
+    not see or sell your worship data. The only things that leave your
+    device are: (1) requests to a Qur'an-recitation content delivery network
+    when you stream or download audio, and (2) purchase information handled
+    entirely by Google Play when you subscribe.
+  </div>
+
+  <h2>1. Information we do not collect</h2>
+  <p>Sirat has no sign-in system. There are no user accounts, no email
+  collection, and no server that Sirat operates which receives your personal
+  or worship data. The app does not integrate any third-party analytics,
+  advertising, or crash-reporting SDK.</p>
+
+  <h2>2. Information stored on your device</h2>
+  <p>The following is stored locally, in the app's private storage, and is
+  never transmitted anywhere by Sirat:</p>
+  <ul>
+    <li>Prayer logs and prayer-tracking history</li>
+    <li>Qur'an reading progress, bookmarks, and highlights</li>
+    <li>Habit-tracking entries and streaks</li>
+    <li>Your private reflection journal entries</li>
+    <li>AI companion conversation history (see §5)</li>
+    <li>App preferences: chosen calculation method, madhhab, reciter,
+      language, theme, and your saved or detected location</li>
+  </ul>
+  <p>Uninstalling the app removes all of this data from your device. Sirat
+  does not currently offer cloud backup or cross-device sync; if that
+  changes in a future version, it will be clearly opt-in and this policy
+  will be updated first.</p>
+
+  <h2>3. Location</h2>
+  <p>Sirat asks for location permission (coarse or fine) for one purpose
+  only: calculating accurate prayer times and Qibla direction for where you
+  are. That calculation happens entirely on your device. Your coordinates
+  are stored locally as part of your app preferences and are never sent to
+  any server.</p>
+  <p>You do not have to grant location permission to use the app — you can
+  instead search for your city from an offline database bundled with the
+  app, with no permission required at all.</p>
+
+  <h2>4. Qur'an recitation audio</h2>
+  <p>When you stream or download a reciter's audio, your device requests
+  the specific verse file from the Islamic Network content delivery network
+  (cdn.islamic.network). That request necessarily includes your device's IP
+  address, as with any network request, but Sirat does not attach any
+  personal identifier to it and does not log or store this traffic itself.
+  Downloaded recitation files are cached on your device for offline
+  playback.</p>
+
+  <h2>5. The AI companion</h2>
+  <p>Sirat's AI companion ("Ask Sirat") answers from a knowledge base bundled
+  with the app — the Qur'an, translations, hadith, and duas already stored
+  on your device. In the current version, this runs entirely on-device: your
+  questions are not sent to any external AI service or server. Conversation
+  history is stored locally so you can revisit past answers, and you can
+  delete this history at any time from within the app.</p>
+  <p>If a future version of Sirat introduces a server-connected AI service,
+  this policy will be updated in advance to disclose exactly what is sent,
+  and that change will not be applied silently.</p>
+
+  <h2>6. Subscriptions and payment</h2>
+  <p>Sirat offers an optional paid subscription (Premium or Family) after a
+  30-day free trial. All payment is handled by Google Play Billing. Sirat
+  never receives or stores your card details, billing address, or any other
+  payment information — that is handled entirely by Google, under
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's own privacy policy</a>.
+  Sirat only receives confirmation of your subscription status (active,
+  trial, expired) from Google Play, stored locally on your device.</p>
+
+  <h2>7. Permissions Sirat requests, and why</h2>
+  <table>
+    <tr><th>Permission</th><th>Purpose</th></tr>
+    <tr><td>Location (coarse / fine)</td><td>Calculating prayer times and Qibla direction for your position. Optional — you can search for a city instead.</td></tr>
+    <tr><td>Notifications</td><td>Prayer-time reminders and the adhan call to prayer. You choose which reminders are on.</td></tr>
+    <tr><td>Exact alarms</td><td>Firing prayer reminders and the adhan at the precise calculated time.</td></tr>
+    <tr><td>Boot completed</td><td>Re-scheduling today's prayer reminders after your device restarts.</td></tr>
+    <tr><td>Internet / network state</td><td>Streaming or downloading Qur'an recitation audio, and communicating with Google Play for subscriptions.</td></tr>
+    <tr><td>Foreground service (media playback)</td><td>Continuing Qur'an audio playback in the background, with lock-screen controls.</td></tr>
+    <tr><td>Vibrate</td><td>Optional vibration for prayer and dhikr reminders.</td></tr>
+  </table>
+
+  <h2>8. Data safety and your rights</h2>
+  <p>Because your worship data lives only on your device, deleting the app
+  deletes that data. There is no server-side account to close and no
+  server-side copy to request or delete, because none exists. If you have
+  used the AI companion's history or the reflection journal and want to
+  clear them without uninstalling, both can be cleared from within the app.</p>
+
+  <h2>9. Children</h2>
+  <p>Sirat is not directed at children and does not knowingly collect
+  personal information from anyone. The app itself contains no mechanism
+  for a user to submit personal information to us in the first place.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If Sirat's data practices change — for example, if cloud sync or a
+  server-connected AI service is introduced — this page will be updated
+  first, with a new "last updated" date above, before that change ships in
+  the app.</p>
+
+  <h2>11. Contact</h2>
+  <p>Questions about this policy or how Sirat handles data can be sent to
+  <a href="mailto:abhishek.98av@gmail.com">abhishek.98av@gmail.com</a>.</p>
+
+  <div class="footer">
+    Sirat (package: com.sirat.app) is developed and published independently.
+    This page is served from the
+    <a href="https://github.com/avirusai1/allways-games-legal">allways-games-legal</a>
+    repository, which hosts public policy pages for multiple apps under this
+    developer account.
+  </div>
+</div>
+</body>
+</html>
